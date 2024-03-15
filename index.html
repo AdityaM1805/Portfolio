@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aditya Portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper container">
+        <div class="profile">
+            <div class="profile-name">
+                <h1>Jayaditya Mendu</h1>
+                <span class="job">Grad Student at UIC</span>
+            </div>
+            <div class="profile-img">
+                <img  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFRUZGBgYHBgYGhgYGhgYGBgYGBgaGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJSs0NTQ2NDQ0NDQ0NDQ0NDE0MTQ0NDQ0NDQ0NDQ0NDY0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0Pf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAACAAEDBQYEBwj/xAA/EAACAQIDBgMFBQcEAQUAAAABAgADEQQhMQUGEkFRcWGRsRMiMoHBI1JyodEUM0JigrLwBzRz8SQVFpKi4f/EABoBAAIDAQEAAAAAAAAAAAAAAAAFAQIEAwb/xAArEQACAgEEAgIBBAEFAAAAAAAAAQIRAwQSITEyQRNxUQUiM4GxFCNCYZH/2gAMAwEAAhEDEQA/ANA7m5zOp5xuM9T5mJ9T3MaNhISK56nzhhz1MiQwwYEMkDnqYQY9T5yMQxAAuM9TCDnqYMeAEgc9TH4z1MAQatVVHExAA5nSAE3Eepi4/GZLa2+VOncUxxt10W/fnMjid5cTUJPtGXwT3QPKc5ZIxO0NPOXPR6rXxyJm7he7ASmxu9lJMgxc/wAt7ec82/anJuxLHq2Z843tgZT5vwjvHSL/AJM3n/vRTp+fEYKb4552IHQlT5MLHzmDGZ/SHpzv4GHzP8Iv/pI/lnq2z9u0qwHA/va8JNj5Sz4z1niqVCDcEgjmMiJpNi72vTISsSyfe5r8+neWjli+zjk0rjzHk9F4j1MbiPUznw2KR1DIQQc7iTTqZBFj1PnBZz1jNBaAC4z1MXGepgREwoAw56nziLnqYERgSEXPU+chLHqfOOYBMiiSx9mepill7GNOO407DNvqe5jCO2p7mMJ3MwSw1gCEsAJBCEGEIEBiKCTYTObR3lVCRbL3gPEi4v5iFBy3SLTau2EoJxO2Z0Uamecba2/UrsbtZeSjQfrOTam0GquWY35DtynAZmyZb4XQywadRW6XZIXJhK0BQZJTUzgah5OMLca56xAAZMDnyP0MevTHxIx8QZcrYVOiMjfwMgdSrcMJKx56xqj3z6SG0CEEMdhlmPmIRPMc+Ucrlcf5lIJOjYe3Xwz3F2Q/El/ToZ6ns7HpWRXQ3DC/bqD4zxjEpb3h/wBGW+7G3Wwz5n3G+IeP3h4zriy09r6Muowbluj3/k9ZaAZHhcUtRA6EMDzElM1C0jjQyIMkBGK8YxSCQWkZhsYCD3h3HrIfRMezY+zinRaKYbGVGFfU9zGjtqe5jTeLQhDWAIQgBKISwAId4EEWJNlM8j2niOJ2A+G5sPnrPQt7dq+wp2X4n90eAINzPLqjXJOk45p0tps0mO25MKEFgJJUAvmZlGBMiHl55iOCVOgk9BlHj+UVQqb2EtRADVy2RXKR1MOdbW7whUZdLjt/1BDE63kNgkMqsNbHsYLpbST0qZOi3kr4Sof4G+c5ucV7OihJ9IruO2mXp5QlxPWdFTZtT7hnM+HZdVPlKqa9Mlwa7Q3HfI6SErYx725WjMZaytF1u5t18M4uxNNjZl6fzDpPVcPVDqGU3DC4I6HSeIKZ6nuXUJwqA/wkqOw0mzBJtNMW6vGlUkX5gGSGA07mIExiY5gkwJBJiofEvcesYw8KPfT8S+okS6LQ7RuIoUUXDWjAPqe5jR31PcxhGQpCEIQRDEAJFjgwVjwIMJv/AIgcaLbNRfwsecxJabTfPZ1R2euRZVAHPMaCw7mYh5kz2pDTSNbOAuOSI0iw9IsbCbjd/YyBeJlBPUiZpz2qzZCG50ZvD0Xa3ChPylzgti1n/hCzc4bCqMgoHylnh8OOkzPPJ9Gj4Irsx+G3RJzc/KWFPdJByHlNnSojpJGQSHKUu2StsekZWhsNEAFrzq/9OT7oluUzjMk40ddxn62AW2kp8ds5TfKa7EiUuJS95TlM6R57MFj9jgXKj5ShxCWnoOOpamYzaSAkkdfzm3DJyMuogo8orEynrm6pT9nQJy1v1OZ9Z5KUm03AxpDtSN7cPEM8siP1P5Rhgkk2n7FGri5R3L0b9pHDMCahaMZGYTGAZJIxk2BH2ifiX1EhM6NnD7VPxr6iUn4svj8kba0UV4otGpgH1PcxhHfU9z6xgY0FAQjs1gTa/h1jCEsADQyRZGgtJFgQQY/BrVRkYZMLGeVbz7JXDVQitxXUN0tflPXxPMd/2JxNjbJFtbpnrOOZLaatJJqdeigwGTDxnpGxwSonn2xKJeqijrc9hPTcIAot0ivM/Q+08eHIssOucsqCytwlVCbcQy8RLfDles4RgzpKaJlMTPJuC4kbU5ZpoommQ3jNJDTj+zlKZa0V9eVGJEvsQolRiwo1MpKLOkJpFBixkZh9oe65B5ze4lQRcG4mK3joEEONDlO2B7ZURqFujZXPaw/zmT9RLrc2pbFJbmGH/wBSfoJQU2BUjtnL3chb4pf5Q5Plb6xjj8kKM/8AG/o9QMAw4Jm4UEbQY7QDJAadWyx9qn4hOUzr2SPtk7ymTxZbH5r7NpeKKKLBwYB9T3MYRmOZ7mIGNhMOWhqYIhLACRZIDIlkiyCAwZ5dv8P/ACzmc0TsNdJ6iJh98aNJ3csp4wlw2dstBacM8lGJr0cXLJx+Cl3MpXqOegA8yf0mzGyGc3Lst+npaZ/cahbjbrb9frL7au0WUWW/y184ryNqXA+wxuNEeJ2BqVrcJ5aTgCYmm3+4BHUMb/nCxaYlMOcSOAAEZfG1jqW5Ccew3q4qoUVw3xk8dOwCKBwEkaXucuVucstzV2Ul8adGw2TjqgHvvxePOX6Yi4mKw2EdCRYqy6rr81PMTRbOqE5EzPJuzvsVWizOItOLaO0Sinh1jYw8IveZbaLu7EcVhqSdABzlVJ3RKgnycO0ttYt24VKqPC31kFPZ2Jq5vVUdje/5Tsx+FahRFZUUBmC8dTiLZj4uAfCsrNm7RrVzwoqOQhc8N1K2JBXxOh+c01LbaOP+3up2WdTZNRFye/8AnWU22qRNJwwzAv8AMSwwW1TxcDFh/K4zHzkm2BxI3Y+k5xb3Uzs4pQdHniNa82/+m2Hu9WodAFUfO5P0mNSgWNgLmesbp7N9hh1XLib32IzzPK/hp8oxwL91/gS6t1CvyXJgEwzIzNorAYwITGCZIDTs2P8Avk7/AEM4zO/Yg+2T5/2mUyeL+i+LzX2bCKPFFQ5PPHOZ7n1iBgucz3PrHWOBIGI8YQhAA1MkWRqYamQQSiZ/alFXepxAGyfU5/lL8GUmNp2NUsfiWw/P9RMWs8V9jP8ATK3y+iv3VpcNPuT62+k0T4NWGYlDus16Y/E3rNhQS4i7JzJjiD2pFUmzgvwkgHUAkA9xzkVLZoS4QcIbULlfvaaH2UXshK2y1rspEwwUaZ9fCdOCQ3vOrEINIVFLSkuy+7g5do34ZSrQ4jmMvCX2P0nFhrXlPZePic9ZHKNTJLowsVf3hb5zjwuD9ipWigQtqwFyfC5mmFCMuHvOu6VHP9t3RlBsvPifMyHG0ha3ympxVKwmb2oeEE9L/rKxb3ItJ3EymwMNxe1GhBAvz56eU3e7qsKC8RubnPw5TE7sKSaz9eXU3J+pm82MtqKjvGOmv5n9CrX0tMvs7TAMK8AmMxGA0EwjAaADSw2F++T5/wBpldLLd/8AfL/V/aZzyeD+i+LzX2bCKK8UWDk85fU9zEsZ9T3McRuJCQQhIwYQgBIJIsjBhrAglWV+0kzFxcEEEdZ3rIsUlxfWxmfUR3Y2atFPbmT/AKKLdykENRPuuddbNYia7DmZemwFZrcwpPyLD9JfYetE8u7PRJcUXFspC72gpWygN72kq2Ql+TnZ7sZ14akTOGpiVpg8QPYC5PYc4GzNscRJ4HQae+pW8hIu7rg7MbRylCxKt4Xnbtnbq005t4KCx8hONMYlSmGF/e5EWPkZWS9l43XJd4WrcTtUCU2EBE7zVykxkUlHkgxxmM3nrhab9reeU0u0MTYGYneG78CDV3H5AmTBXKyZcRZybuqVu38Jz7m2g8zPQcCtqaDwH55zMbN2aPcQX5XvyGpmuMZ6ONyc/wChR+pzSjHH/YJgxzBjATgtBaExgmAAyz3fH2y9m/tMqpbbu/vl7N6Tnl8H9HTD5r7NdaKKKKxwecPqe5iET6nuYhG6EgQhgyMQhJAkEJYAMIQIJgYYkIMkUwArNtAIUcC2ZVvnmL+UPC15146jxoydRkehGhmdwOIOd8mvYjoRkR6xXrcdNSQ7/Tc25OL9Ggq4zgGZktDa9Owuwv0mR23jCF1JIubdsvrM9hTXf3kTitfK+cyQgmrYxnKnSR6PjNvU10zOojbK2oKhZGXivzmRw1JjbjHDfLPkZqMBS4FueE+I1ktJLgtGEnywtobRpUjwKgyzJt+UWCxtJ/esAfTtK/beHLrxAL5+szNeqyCygkj7uenWRtUkS4yiegPilGhEgTG3nm74yuDxWYAZzQbHxpZOI+N5znipXYQkm6aLfHV7mVWz8F+0VyeIhaY1GfvH/wDJx47aNy1ja01G6eCKUAzizVDxnwB+H8rec2aTBudy6MOv1OyFRfNnfhsEqdSep/TlOgwzAaNYxjBVFcHn5zlOW6TtkZgmEY0sVBaAYTQDAkaWu7o+2HZvSVTS03d/fD8LTnl8H9HTD5r7NfeKK8UVjg83c5nufWIGC+p7mKOBIGDCEERxAhkgMIQBDEACEkWAohs1hc6DOBA71FUFmIAGZJNgPnMNtXFIKvt6LXps3C5GnGNSPAyh3r2++IqFQxFNbhVvkf5j1Mut2MIKuEKtzZ/Ww9Iv1GVNbfQ30WncXub5o76iJVAJ6a9QZZ7KwgQe6BMMa9Sg3A5ItpmdJttgYoVEFjfrMM4uKtdDWORN0+y29mhGg7GSVdm0WAIFjbMePykbUCRaV2KwddR7jnwlIyO6kWFTAUQuYv0y0lXVooMgB2HKAmBrsBxuT3nT+x2ErKf4OilwV+LReAi2ZlQqBEIBsJ37bxIRdc5mxiXqtwJz58lHUy8ItqzhOaT/AOyy3c2d+01yT8CEM/8ANmeFe2X5T0gCeVLimwVdChy4feH3xf3gZ6ZgsYlVFqIbqwv26g+Ma6Zx28HntfGanb6J2kbQyYDTWYAGgwjGgALCBCMEwJBMtd3B9t/S0qZb7t/vf6T9JzzeDOmD+RfZrIo9oosHJ5o+p7n1iEZzme59YhG4jJBHEFYQgQGsMQBCWBBMJR73bR9nQKA+8/ujwX+I+WXzlriMSiLxOwUdSbTzreDaXt6pYfCvur26/Oc5ypGjBj3Sv0jMYjNzPT908OUw6KRY2uR+I3+swWysOHxCqRlme9hPTtnCyiJ88vR6DTw4sq94tkCot9CND0me2NtJsM/A4OZt4T0F0uLSi2lsdKlwdeR+srCarbIvOFvdHs6qe306/wCc52ptxGy6dZ55i9l16WXCzC9wRn52nG+LqXsbjlzl/ji+inySXaPTW2woFxa0q8bt9bZePPpMV7Z2GV9NNbm86KOyqjj3jwrzJ18vKR8cFyyyyTlxFD7QxT4h+BBc8zyF+svdlbOWkthqdT1MWy9nqgso7nmT1lrwzlknf7V0d8eOv3S7MfvOlmRuWa+diPQzo3V22cO4Rz9m5z/lJyD/AK+Ek3qT3PmPWZpTNenk1FNGHWY1JtP2e1cV89YJM812XvLWogLfjQZcLdOgOomx2TvHRr5X4H+42V/wnQxjHJFiPJp5Q57RcGDHMEzqcBGAYREEiAAy23a/e/0t9JUmW27X73+k+onPN4M64P5I/ZrbRRRRYOTzJtT3PrHEZtT3PrDAjdCJjqIawVnJjNq0qPxuL/dGbeUhtIlJt0juLAZnlKDbG86UwVpEO/X+Ff1mf23t96oKrdE6c2/F+koLzjLL6Rrxab3L/wAO/E456p46jljyvoOw0E5jETkI4E5NmxJLoLZ78GIRjpxW/wDkLT0vBaCeW4gG1xqM/Kei7v4sVKSPzsAe41mDUxp2btPLii9USGunOGjSRs5kNJxAX1kb4Om2ZQZeEnIkFZyNJNk0cOIoonwqBOfhvlJ6guZLh6dzCy64JMJhspNUSwnZTSwnPiTYShFmM3tqfAnU3+SzOWzlltav7Sozcl90fUyujPDHbFWL88t0mOojAZwlibWdTiaTd/eZqZ4KxLpyOrIfqs2+GxKVF4kYMDzH1nkyidGFxToeJGKnwJnaGVx4ZkzaaMuY8M9VjGYnA721FIFVQ69Rkw+hmrwGPSsvFTa/UaMO45TRGafRhnhlDtHSZbbsj7U/hPqJUGXG7P70/gPqsrm8GTg/kRq7RRXiiwcHmTanufWR4jFpTUs7BQOv06yHau0UoAs5zubKNSfATA7T2i9ZuJzlyXko/wA5xnKaihVjwubv0XG0t6Hf3aQ4F+8fiPbpM7Uckkkkk6k5mBxREzO5t9m6OOMVwhFoJNoLnKE2YEo2dCUHTtJFkajSGJYB2Et91Noeyfgb4XOXgZVCBexB6TnlhujR0xy2ys9VR5Opmd2JtHjQKxztkesvKbRVJUxinY9Sc9QXk9Uzhq3EguiJ0E6cGlzec1MXMsqKWEGSyd3AEzm8eP4E4Qc2y7S2xVcLrMRtrEcT2vpn+gnXBj3SRyyy2xbKupkJBaS12yAgARnQuHAg1eRhyOsMh3gwExykimRNpDVYIhktoqOIZGDIxVhoQbQCbRtZNlWrNVsze05LWW4041Gfcjn8p6DuhiUqOXRgw4TpyzGRHKeLCbn/AEnc/tjjQexc2ztcPTt6mWlke1pnH4IqSlHg9i4Y0LijTEaaPmbaeLepUZna54iOwvoJxkx6p99/xN6mPaa7soklwiFrxK0kZoBTmJUsM+kdWyEdvhMipvlaD7A7RHjDQdhHEuVJYLiR1MSq6n5DWcbbQJPurl46yHJEpF1sjG8D8JNhyPQ+PhPQNnYjjAvrznmDC9iOcvcDtxqfA1729x15m3wsPlcHxHjMmbDu5RqxZaVM9Danec74YmLZW1addbqc+Y5juJaU6cxNNOmaVL2VtLBWk1ROEXliy2lBvJtEUaZPM5KOpkqLbpBv9sqNq4uyuw/hA82Nl+vkZjEYsSTmSdevjJa2Jd1IY5Fi58SRb8hp3PWctV+EePKMcWPZExZcm5j1RnHtOFKzjnfvOhMTfVfKdE7OZIDBqaRwwPPzjuuUCCP+H5yWnIv4R3krZSUSJhIwZMpykREkgINN1/pGf/Mf/hf++nMGZu/9If8AeP8A8L/305SXiwPZeGNHuY8zFj5XqfG/4m/uMPlFFNaOYzRqcUUAFW0M5qUUUh9ljvXQdo/IxRS5UqW1j09YopyLllQ+D5mO+oiilgRfbr/7hexnpmF5R4ovzeZsx+JPWnn+/wD8VP8Aq+kUUMXkiZ+LMimg/wA5zmxHxxRRi+jEAZKseKURI1aTUvgiiliCPkO8lq6CKKSiAk0kbRRSQGm7/wBIf93U/wCFv76cUUpPxA9oiiimcsf/2Q==" alt="Aditya Profile Picture">
+            </div>
+            <ul class="profile-info">
+                <li></li>
+                <li>
+                    <p>
+                        <span>name:</span>
+                        Jayaditya Mendu
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>birthday:</span>
+                        18 May, 1998
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>job:</span>
+                        Graduate Assisstant at UIC
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>email:</span>
+                        jmendu2@uic.edu
+                    </p>
+                </li>
+            </ul>
+            <div class="btn-container">
+                <button class="btn">
+                    downolad cv
+                    <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+        </div>
+        <div class="right">
+            <header>
+                <nav>
+                    <a href="#" class="home" data-sec="home">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <ul class="tabs" id="tabs">
+                        <li><a href="#" data-sec="resume">resume</a></li>
+                        <li><a href="#" data-sec="portfolio">portfolio</a></li>
+<!--                        <li><a href="#" data-sec="blog">blog</a></li>-->
+                        <li><a href="#" data-sec="contact">contact</a></li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+<!--                        <a href="#"><i class="fab fa-dribbble"></i></a>-->
+                    </div>
+                    <div class="hire-me">
+                        <button class="btn">
+                            hire me
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="toggle-btn" id="toggleBtn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div id="home" class="section active">
+                    <section class="about">
+                        <div class="section-title">
+                            <h2>about me</h2>
+                        </div>
+                        <p>
+                            Master's student at UIC with 2+ years of corporate experience in Product Based company. I come from a technical background with a strong interest in solving business problems.
+                            I have built my career in roles that required me to solve data-driven problems, design and implement technical solutions for numerous projects, and work with the organization's stakeholders to comprehend and analyze business problems before offering insightful technical solutions to them. I am a highly analytical problem solver.
+                            In addition, I like overseeing individuals and events.
+                            <br />
+                            <br />
+                            I try to give my all in everything I do, whether it's coaching or mentoring juniors at my previous employment or planning & managing cultural/sports events for students.
+                        </p>
+                    </section>
+                    <section class="services">
+                        <div class="section-title">
+                            <h2>my services</h2>
+                        </div>
+                        <div class="services-container">
+                            <div class="serv">
+                                <div class="icon"><i class="far fa-folder"></i></div>
+                                <h3>web development</h3>
+                                <p>I have been working on web design since the start of this semester.</p>
+                            </div>
+<!--                            <div class="serv">-->
+<!--                                <div class="icon"><i class="fa-regular fa-file-lines"></i></div>-->
+<!--                                <h3>branding identity</h3>-->
+<!--                                <p>We will make you a brand that is catchy and leaves a trace.</p>-->
+<!--                            </div>-->
+                            <div class="serv">
+                                <div class="icon"><i class="fas fa-pen-nib"></i></div>
+                                <h3>Hubble Database</h3>
+                                <p>I have been working on Hubble Database for 3 years.</p>
+                            </div>
+<!--                            <div class="serv">-->
+<!--                                <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>-->
+<!--                                <h3>fast delivery</h3>-->
+<!--                                <p>I deliver your business as fast as possible.</p>-->
+<!--                            </div>-->
+                        </div>
+                    </section>
+                    <section class="skills">
+                        <div class="design-skills">
+                            <div class="section-title">
+                                <h2>design skills</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <h3>photoshop</h3>
+                                    <div class="progress">
+                                        <span style="width: 80%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>sketch</h3>
+                                    <div class="progress">
+                                        <span style="width: 60%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>adobe Xd</h3>
+                                    <div class="progress">
+                                        <span style="width: 30%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-skills">
+                            <div class="section-title">
+                                <h2>code skills</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <h3>javascript</h3>
+                                    <div class="progress">
+                                        <span style="width: 80%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>HTML5</h3>
+                                    <div class="progress">
+                                        <span style="width: 60%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>css3</h3>
+                                    <div class="progress">
+                                        <span style="width: 30%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id="resume" class="section">
+                    <section class="resume">
+                        <div class="section-title">
+                            <h2>resume</h2>
+                        </div>
+                        <div class="resume-container">
+                            <div class="work">
+                                <ul>
+                                    <li>
+                                        <h2>work history</h2>
+                                        <i class="fa-solid fa-suitcase"></i>
+                                    </li>
+                                    <li>
+                                        <h3>Graduate Assistant at UIC</h3>
+                                        <span>Feb 2023-Present</span>
+                                        <p>Expenses as material breeding insisted building to in. Continual so distrusts
+                                            pronounce by unwilling listening. Thing do taste on we manor.</p>
+                                    </li>
+                                    <li>
+                                        <h3>Technical Trainee at Cognizant</h3>
+                                        <span>Oct 2019- Mar 2020</span>
+                                        <p>So insisted received is occasion advanced honoured. Among ready to which up.
+                                            Attacks smiling and may out assured moments man nothing outward.</p>
+                                    </li>
+                                    <li>
+                                        <h3>Process Specialist at Amazon</h3>
+                                        <span>Jun 2020-Jul 2022</span>
+                                        <p>Excited him now natural saw passage offices you minuter. At by asked being
+                                            court hopes. Farther so friends am to detract.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id="portfolio" class="section">
+                    <section class="portfolio">
+                        <div class="section-title">
+                            <h2>portfolio</h2>
+                        </div>
+                        <ul class="filter">
+                            <li class="active" data-profile="all">all</li>
+                            <li data-profile="webdesign">web design</li>
+                            <li data-profile="motion">motion graphic</li>
+                            <li data-profile="illustration">illustration</li>
+                            <li data-profile="photography">photography</li>
+                        </ul>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z10-UxwHaPs" frameborder="0" allowfullscreen></iframe>
+
+                    </section>
+                </div>
+
+                <div id="contact" class="section">
+                    <section class="contacts">
+                        <div class="contact">
+                            <div class="section-title">
+                                <h2>contact form</h2>
+                            </div>
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name">
+                                    <input type="email" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <div class="section-title">
+                                <h2>contact informations</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>address:</span>
+                                    710 S Lytle St, Chicago, Illinois 60607
+                                </li>
+                                <li>
+                                    <span>phone:</span>
+                                    +1 331-203-0455
+                                </li>
+                                <li>
+                                    <span>job:</span>
+                                    Graduate Assisstant at UIC
+                                </li>
+                                <li>
+                                    <span>e-mail:</span>
+                                    jmendu2@uic.edu
+                                </li>
+                                <li>
+                                    <span>teams:</span>
+                                    jmendu2
+                                </li>
+                                <li>
+                                    <div class="social-media">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact-map">
+                            <div class="section-title">
+                                <h2>contact map</h2>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11884.697456752378!2d-87.65559914999999!3d41.86759485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d1cb514cf3d%3A0x17aa02bd083daace!2sLittle%20Italy%2C%20Chicago%2C%20IL!5e0!3m2!1sen!2sus!4v1681266037545!5m2!1sen!2sus"</iframe>
+                                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-container">
+                    <h2>Jayaditya Mendu.</h2>
+                    <div class="copyright">
+                        <p>© 2023 All rights reserved. Designed by <a href="#">Aditya</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="settings" id="settings">
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="settings-inner">
+            <h5>select a color</h5>
+            <ul>
+                <li data-color='#ffc500'></li>
+                <li data-color='#52bf00'></li>
+                <li data-color='#d81300'></li>
+                <li data-color='#425cbb'></li>
+                <li data-color='#BF55EC'></li>
+                <li data-color='#00b4d9'></li>
+                <li data-color='#029A83'></li>
+                <li data-color='#f62459'></li>
+                <li data-color='#ff5a14'></li>
+                <li data-color='#ABB7B7'></li>
+            </ul>
+            <hr>
+            <button class="reset" id="reset">reset</button>
+        </div>
+    </div>
+    <div id="preloader" class="preloader">
+        <div class="spinner">
+            <img src="img/img.jpg" alt="">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
